@@ -67,10 +67,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Link>Xamarin.Android.DefaultOutputPaths.targets</Link>
     </None>
-    <None Include="MSBuild\Xamarin\Android\Xamarin.Android.Designer.targets">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Link>Xamarin.Android.Designer.targets</Link>
-    </None>
     <None Include="Xamarin.Android.Analysis.targets">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -171,6 +167,7 @@
     Inputs="$(_AndroidSdkLocation)\$(_MultiDexAarInAndroidSdk);$(_SupportLicense)"
     Outputs="$(OutputPath)android-support-multidex.jar;$(OutputPath)MULTIDEX_JAR_LICENSE">
     <UnzipDirectoryChildren
+      HostOS="$(HostOS)"
       NoSubdirectory="true"
       SourceFiles="$(_AndroidSdkLocation)\$(_MultiDexAarInAndroidSdk)"
       DestinationFolder="$(IntermediateOutputPath)multidex-aar" />
