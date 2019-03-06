@@ -18,7 +18,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyCompany ("Microsoft Corporation")]
 
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Drawing.Color))]
-[assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Drawing.ColorConverter))]
+// [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Drawing.ColorConverter))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Drawing.KnownColor))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Drawing.Point))]
 [assembly: System.Runtime.CompilerServices.TypeForwardedToAttribute(typeof(System.Drawing.PointF))]
