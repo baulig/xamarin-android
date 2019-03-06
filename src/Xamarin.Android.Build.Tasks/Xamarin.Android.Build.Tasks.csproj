@@ -355,6 +355,9 @@
     <Compile Include="$(LinkerSourceFullPath)\linker\Linker\AssemblyUtilities.cs">
       <Link>Linker\Linker\AssemblyUtilities.cs</Link>
     </Compile>
+    <Compile Include="$(LinkerSourceFullPath)\linker\Linker\BCL.cs">
+      <Link>Linker\Linker\BCL.cs</Link>
+    </Compile>
     <Compile Include="$(LinkerSourceFullPath)\linker\Linker\I18nAssemblies.cs">
       <Link>Linker\Linker\I18nAssemblies.cs</Link>
     </Compile>
@@ -364,8 +367,17 @@
     <Compile Include="$(LinkerSourceFullPath)\linker\Linker\LinkContext.cs">
       <Link>Linker\Linker\LinkContext.cs</Link>
     </Compile>
+    <Compile Include="$(LinkerSourceFullPath)\linker\Linker\KnownMembers.cs">
+      <Link>Linker\Linker\KnownMembers.cs</Link>
+    </Compile>
     <Compile Include="$(LinkerSourceFullPath)\linker\Linker\MethodAction.cs">
       <Link>Linker\Linker\MethodAction.cs</Link>
+    </Compile>
+    <Compile Include="$(LinkerSourceFullPath)\linker\Linker\MethodBodyScanner.cs">
+      <Link>Linker\Linker\MethodBodyScanner.cs</Link>
+    </Compile>
+    <Compile Include="$(LinkerSourceFullPath)\linker\Linker\MethodDefinitionExtensions.cs">
+      <Link>Linker\Linker\MethodDefinitionExtensions.cs</Link>
     </Compile>
     <Compile Include="$(LinkerSourceFullPath)\linker\Linker\MethodReferenceExtensions.cs">
       <Link>Linker\Linker\MethodReferenceExtensions.cs</Link>
@@ -378,6 +390,9 @@
     </Compile>
     <Compile Include="$(LinkerSourceFullPath)\linker\Linker\TypePreserve.cs">
       <Link>Linker\Linker\TypePreserve.cs</Link>
+    </Compile>
+    <Compile Include="$(LinkerSourceFullPath)\linker\Linker\TypeDefinitionExtensions.cs">
+      <Link>Linker\Linker\TypeDefinitionExtensions.cs</Link>
     </Compile>
     <Compile Include="$(LinkerSourceFullPath)\linker\Linker\TypeReferenceExtensions.cs">
       <Link>Linker\Linker\TypeReferenceExtensions.cs</Link>
